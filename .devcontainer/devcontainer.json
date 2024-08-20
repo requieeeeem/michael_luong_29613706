@@ -7,7 +7,10 @@
 	"build": {
         // Path is relative to the devcontainer.json file.
         "dockerfile": "Dockerfile"
-    }
+	},
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/mongosh-homebrew:1": {}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
